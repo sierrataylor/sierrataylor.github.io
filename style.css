@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FAF3DD;
+    color: #3D6581;
+}
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container h1{
+    font-size: 35px;
+}
+.container h4{
+    font-size: 25px;
+}
