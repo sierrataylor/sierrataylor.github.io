@@ -4,7 +4,7 @@ body{
     background: #FAF3DD;
     color: #3D6581;
 }
-.container {
+.container, .about-me {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -12,6 +12,12 @@ body{
 .container h1{
     font-size: 35px;
 }
-.container h4{
+.about-me h3,h4{
     font-size: 25px;
+}
+.work-experience{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.contact-footer{
+    background: none;
 }
