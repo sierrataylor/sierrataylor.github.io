@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FAF3DD;
+    color: #1F375A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    height: 100px;
+    background-color: #cccccc;
+    background-image: url(../img/background.jpg);
+    font-size: 45px;
+    color:#FAF3DD;
+}
+footer, .work-experience{
+   font-size: 20px;
+}
+footer h5{
+    color: #FE5F55;
+}
+footer ul{
+    list-style-type: none;
+    background-color: #FE5F55; 
+}
+footer ul li, footer ul li a{
+    text-decoration: none;
+    color:#FAF3DD;
+}
+footer ul li a:hover{
+    color: #F0E130;
+}
+li img{
+    width: 25px;
+    height: 25px;
+}
