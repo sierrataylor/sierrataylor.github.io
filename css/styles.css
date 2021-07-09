@@ -12,24 +12,35 @@ h1{
     font-size: 45px;
     color:#FAF3DD;
 }
-footer, .work-experience{
-   font-size: 20px;
+footer{ 
+   background-color: #FE5F55;
+   color: #FAF3DD;   
 }
-footer h5{
-    color: #FE5F55;
+footer, .work-experience{
+   font-size: 20px; 
 }
 footer ul{
     list-style-type: none;
-    background-color: #FE5F55; 
-}
-footer ul li, footer ul li a{
-    text-decoration: none;
-    color:#FAF3DD;
-}
-footer ul li a:hover{
-    color: #F0E130;
 }
 li img{
     width: 25px;
     height: 25px;
+}
+li a{
+    text-decoration: none;
+    color: #FAF3DD;
+}
+h5 a{
+    color: #1F375A;
+    text-decoration: underline;
+}
+a:hover{
+    color: #F0E130;
+}
+.project-btn{
+    background-color: #AC3B61;
+    color:#1F375A;
+}
+.project-card{
+    width: 18rem;
 }
