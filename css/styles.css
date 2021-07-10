@@ -14,17 +14,15 @@ h1{
 }
 footer{ 
    background-color: #FE5F55;
-   color: #FAF3DD;   
+   color: #FAF3DD; 
+   font-size: 20px;  
 }
-footer, .work-experience{
-   font-size: 20px; 
-}
-footer ul{
+ul{
     list-style-type: none;
 }
 li img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 40px;
 }
 li a{
     text-decoration: none;
@@ -41,6 +39,7 @@ a:hover{
     background-color: #AC3B61;
     color:#1F375A;
 }
-.project-card{
+.project-cards{
     width: 18rem;
+    height: 18rem;
 }

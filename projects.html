@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Sierra Taylor | Projects</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <div class="mx-1 my-1 p-1 text-center">
       <h1>Sierra Taylor</h1>
     </div>
@@ -37,51 +37,61 @@
 
 
     
-    <div class="mx-3 px-2 text-center">
-      <h3>My Projects</h3>
-      <h5>Here you will find some of my computer science projects. 
+    <div class=" text-center">
+      <h3 class="mx-3 px-2">My Projects</h3>
+      <p class="mx-4 px-3 lead">Here you will find some of my computer science projects. 
         I find time to work
         on them outside of class and work. 
         I typically add them to <a href="#">my Github account</a> 
-        before the website, so you
+        before adding them to this website, so you
         can find more project there.
-      </h5>
+      </p>
     </div>
 
-    <div class="mx-3 justify-content-sm-around ">
-      <div class="row">
-        <div class="project-card card col-md m-3">
-          <img  class="card-img-top" src="" alt="">
-          <div class="card-body">
-            <h5 class="card-title">1</h5>
-            <p class="card-text">project 1</p>
-            <a href="#" class="btn project-btn">Press</a>
+    <div class="mx-3">
+      <div class="row justify-content-sm-around py-4">
+        <div class="card col-sm-4 m-3">
+          <img  class="card-img-top" src="./img/weather-icon.png" alt="weather-icon">
+          <div class="card-body float-sm-left">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-subtitle">Python, Flask, Visual Studio Code, Git</p>
+            <p class="card-text">Application that implements OpenWeather API to find 
+              weather conditions based on zip code (Currently updating)</p>
+            <a href="https://github.com/sierrataylor/weather-app" class="btn project-btn">GitHub Repo</a>
           </div>
         </div>
-        <div class="project-card card col-md m-3">
-          <img class="card-img-top" src="" alt="">
+        <div class="card col-sm-4 m-3">
+          <img class="card-img-top" src="./img/music-note-icon.png" alt="music-note-icon">
           <div class="card-body">
-            <h5 class="card-title">2</h5>
-            <p class="card-text">project 2</p>
-            <a href="#" class="btn project-btn">Press</a>
+            <h5 class="card-title">Genius Web Scraper</h5>
+            <p class="card-subtitle">Python, Flask</p>
+            <p class="card-text">Takes user input of an artist and song title, scrapes 
+              lyrics of that song from the respective artist from https://genius.com, and renders
+              lyrics to web page</p>
+            <a href="https://github.com/sierrataylor/genius-scraper" class="btn project-btn">GitHub Repo</a>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="project-card card col-md m-3">
-          <img class="card-img-top" src="" alt="">
+      <div class="row justify-content-sm-around py-4">
+        <div class="card col-sm-4 m-3">
+          <img class="card-img-top" src="./img/book-icon.png" alt="book-icon">
           <div class="card-body">
-            <h5 class="card-title">3</h5>
-            <p class="card-text">project 3</p>
-            <a href="#" class="btn project-btn">Press</a>
+            <h5 class="card-title">Library Database</h5>
+            <p class="card-subtitle">SQL, Jupyter Notebooks</p>
+            <p class="card-text">An SQL database made to resemble a library database, 
+              tracking books, availability, and visitors (Group class project)</p>
+            <a href="https://github.com/sierrataylor/library-database" class="btn project-btn">GitHub Repo</a>
           </div>
         </div>
-        <div class="project-card card col-md m-3">
-          <img class="card-img-top" src="" alt="">
+        <div class="card col-sm-4 m-3">
+          <img class="card-img-top" src="./img/student-icon.png" alt="student-icon">
           <div class="card-body">
-            <h5 class="card-title">4</h5>
-            <p class="card-text">project 4</p>
-            <a href="#" class="btn project-btn">Press</a>
+            <h5 class="card-title">Course Registration System</h5>
+            <p class="card-subtitle">Java, Eclipse IDE</p>
+            <p class="card-text">Project designed to replicate a course registration system 
+              by creating instances of a Student class and enrolls each Student 
+              object into an instance of a Course class based on course availability</p>
+            <a href="https://github.com/sierrataylor/JavaCourseRegistration" class="btn project-btn">GitHub Repo</a>
           </div>
         </div>
       </div>
@@ -89,7 +99,7 @@
 
     </div>
 
-    <footer class="fixed-bottom mb-1 mx-1">
+    <footer class="align-items-end mt-auto mb-1 mx-1 pb-1">
       <h5 class="text-center fw-bold mt-1">Contact Me</h5>
       <ul
         class="
@@ -100,7 +110,7 @@
         "
       >
         <li>
-          <img src="./img/location-symbol.png" alt="location-symbol" />
+          <img src="./img/location-icon.png" alt="location-symbol" />
           Cleveland, OH
         </li>
         <li>
